@@ -16,29 +16,33 @@ function Achievement() {
         <div className="lg:w-1/5">
           <AchievementCard
             awardImg={<FontAwesomeIcon icon={faBuilding} />}
-            awardCount="2000+"
+            awardCount={700}
             awardText="Venue Successful Secured"
+            id={1}
           />
         </div>
         <div className="lg:w-1/5">
           <AchievementCard
             awardImg={<FontAwesomeIcon icon={faPeopleGroup} />}
-            awardCount="2 Million+"
+            awardCount={2}
             awardText="Attendees Safely Managed"
+            id={2}
           />
         </div>
         <div className="lg:w-1/5">
           <AchievementCard
             awardImg={<FontAwesomeIcon icon={faUserGroup} />}
-            awardCount="300+"
+            awardCount={300}
             awardText="Clients"
+            id={3}
           />
         </div>
         <div className="lg:w-1/5">
           <AchievementCard
             awardImg={<FontAwesomeIcon icon={faFaceSmile} />}
-            awardCount="98%"
+            awardCount={98}
             awardText="Client Satisfaction Rate"
+            id={4}
           />
         </div>
       </div>
