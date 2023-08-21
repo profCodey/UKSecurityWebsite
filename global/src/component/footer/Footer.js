@@ -16,7 +16,7 @@ import {
 
 function Footer() {
   return (
-    <div className="flex flex-col md:flex-row lg:flex-row sm:items-center lg:justify-center h-auto w-full bg-[#001f41] px-16 m-auto gap-16 md:gap-1 lg:gap-32 py-16 mb-32">
+    <div className="flex flex-col md:flex-row lg:flex-row sm:items-center lg:justify-center h-auto w-full bg-[#001f41] px-16 m-auto gap-16 md:gap-1 lg:gap-32 py-16">
       <div className="w-full md:w-1/3 text-white w-1/4">
         <h2 className="text-2xl">Global Total Security Limited</h2>
         <hr className="w-1/4 mb-8" />
