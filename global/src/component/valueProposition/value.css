@@ -1,0 +1,60 @@
+.valueProps {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.value-icon {
+  /* background-color: var(--color-accent); */
+  height: 30px;
+  color: var(--color-secondary);
+  padding-top: 25px;
+  font-size: 20px;
+  width: 50%;
+}
+
+.value-text h2{
+    font-size: var(--fontSize-SmallHeadingMobile);
+}
+
+@media only screen and (min-width: 400px) {
+.valueProps {
+  gap: 4px;
+}
+
+.value-icon {
+  /* background-color: var(--color-accent); */
+  height: 30px;
+  padding-top: 25px;
+  font-size: 20px;
+  width: 20%;
+}
+}
+
+
+@media only screen and (min-width: 900px) {
+.value-icon {
+  font-size: 21px;
+
+}
+
+.valueProps {
+  gap: 4%;
+}
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+.value-icon {
+
+  font-size: 30px;
+
+}
+
+.value-text h2{
+    font-size: var(--fontSize-SmallHeadingLargeScreen);
+    margin-bottom: -1rem;
+}
+
+}

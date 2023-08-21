@@ -1,0 +1,81 @@
+.faqPropHead {
+  background-color: var(--color-primary);
+  width: 100%;
+  height: 60px;
+  /* border-radius: 20px; */
+  padding: 3px 5%;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--color-secondary);
+  cursor: pointer;
+}
+
+.faqPropHead > h2 {
+  color: #fff;
+  font-size: var(--fontSize-paragraphMobile);
+  width: 96%;
+}
+
+.faqPlus {
+  font-size: 1.9rem;
+  cursor: pointer;
+  width: 20px;
+  color: var(--color-secondary);
+}
+
+.faqPropChild {
+  background-color: var(--color-primary);
+  /* width: 94%; */
+  height: auto;
+  margin: auto;
+  /* border-radius: 20px; */
+  padding: 10px 7%;
+  color: #fff;
+  z-index: -10;
+  margin-top: -5px;
+  /* margin-bottom: 20px; */
+  border-bottom: 1px solid var(--color-secondary);
+  border-left: 1px solid var(--color-secondary);
+  border-right: 1px solid var(--color-secondary);
+
+  /* display: flex; */
+}
+
+.faqPropChild p {
+  width: 90%;
+  font-size: var(--fontSize-paragraphMobile);
+  line-height: var(--lineHeight-Mobile);
+}
+/* .faqText p {
+  width: 90%;
+} */
+
+/* .faqText2 {
+  align-self: center;
+} */
+
+@media only screen and (min-width: 470px) {
+  .faqPropHead > h2 {
+    color: #fff;
+    font-size: var(--fontSize-smallHeading);
+    line-height: var(--lineHeight-text);
+  }
+
+  .faqPropChild p {
+    width: 90%;
+    font-size: var(--fontSize-text);
+  }
+}
+
+@media only screen and (min-width: 900px) {
+
+      .faqPropHead > h2 {
+    color: #fff;
+    font-size: var(--fontSize-textLargeScreen);
+  }
+
+  .faqPropChild p {
+    width: 90%;
+    font-size: var(--fontSize-textLargeScreen);
+  }
+}

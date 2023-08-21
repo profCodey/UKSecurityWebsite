@@ -1,0 +1,10 @@
+.social-icon {
+  /* color: #B02525; */
+  color: var(--color-secondary);
+  font-size: 2rem;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+/* color-secondary */

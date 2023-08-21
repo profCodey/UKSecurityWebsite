@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500&display=swap");
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+
+:root {
+  --color-primary: #001f41;
+  /* --color-secondary: #f2c94c; */
+  --color-secondary: #ff9d2f;
+  --color-accent: #ff0000;
+  --color-header: #1a73e8;
+  --color-text: #1a73e8;
+    --fontSize-MediumHeadingLargeScreen: 3.5rem;
+  --fontSize-SmallHeadingLargeScreen: 2.2rem;
+  --fontSize-textLargeScreen: 1.5rem;
+  --lineHeight-textLargeScreen:2.1rem; 
+  --fontSize-smallHeading: 1.6rem;
+  --fontSize-MediumHeading: 3.1rem;
+    --fontSize-text: 1.4rem;
+      --lineHeight-text:4.3rem; 
+    --fontSize-SmallHeadingMobile: 2rem;
+  --fontSize-MediumHeadingMobile: 2.5rem;
+  --fontSize-paragraphMobile: 1.3rem;
+  --lineHeight-Mobile: 1.8rem;
+
 }
 
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  font-family: "Archivo", sans-serif;
+  box-sizing: border-box;
+}
+
+*{
+    box-sizing: border-box;
+}
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* font-family: 'Archivo', sans-serif; */
 }

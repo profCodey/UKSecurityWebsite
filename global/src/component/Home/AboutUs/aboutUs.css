@@ -1,0 +1,111 @@
+.aboutUs {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 85%;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 60px;
+  gap:40px
+  /* margin-bottom: 40px; */
+}
+
+.aboutUsTop h2 {
+  font-size: var(--fontSize-MediumHeadingMobile);
+  color: var(--color-primary);
+}
+
+.aboutUsTop p {
+  font-size: var(--fontSize-paragraphMobile);
+  line-height: var(--lineHeight-Mobile);
+}
+
+.aboutUsTopChile {
+  display: flex;
+  flex-direction: column;
+}
+
+  .aboutUsBottom{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+   .aboutUsBottom img{
+    width: 100%;
+     margin-left: auto;
+    margin-right: auto;
+    /* padding-top: 100px; */
+  }
+
+  .aboutUsBottomStyle{
+    background-color: var(--color-accent);
+    position: relative;
+    top: 30px;
+    height: 50px;
+    width: 100%;
+    z-index: -100;
+    left: 5%;
+  }
+
+@media only screen and (min-width: 900px) {
+  .aboutUs {
+    flex-direction: row-reverse;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+
+  .aboutUsTop {
+    width: 50%;
+  }
+
+  .aboutUsTop h2 {
+    font-size: var(--fontSize-MediumHeading);
+    color: var(--color-primary);
+    line-height: 3.8rem;
+  }
+
+  .aboutUsTop p {
+    font-size: var(--fontSize-paragraphMobile);
+    line-height: var(--fontSize-textMobile);
+  }
+
+  .aboutUsBottom{
+    width: 50%;
+  }
+
+   .aboutUsBottom img{
+    /* width: 450px; */
+    /* padding-top: 100px; */
+  }
+
+   /* .aboutUsBottomStyle{
+    width: 420px;
+  } */
+}
+
+
+@media only screen and (min-width: 1300px) {
+  .aboutUsTop h2 {
+    font-size: var(--fontSize-MediumHeadingLargeScreen);
+    color: var(--color-primary);
+    line-height: var(--lineHeight-text);
+  }
+
+  .aboutUsTop p {
+    font-size: var(--fontSize-textLargeScreen);
+    line-height: var( --lineHeight-textLargeScreen);
+  }
+
+   .aboutUsBottom img{
+    width: 580px;
+    /* padding-top: 100px; */
+  }
+  .aboutUsBottomStyle{
+    width: 550px;
+  }
+}
