@@ -12,7 +12,7 @@ function ContactMain() {
         <p className=" text-2xl mt-2 lg:text-2xl lg:w-full lg:leading-relaxed">
           Thank you for your interest in Global Total Security Limited. If you
           have any questions, inquiries, or would like to request a quote for
-          our door supervisor services, we'd love to hear from you. Here are the
+          our door supervisory services, we would love to hear from you. Here are the
           ways you can get in touch with us:
         </p>
 
