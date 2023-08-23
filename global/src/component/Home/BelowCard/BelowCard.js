@@ -6,7 +6,10 @@ function BelowCard() {
     <div className="belowCard">
       <h3 className="belowCardTitle">
         <span>Ensuring Safety, Elevating Experiences </span>
-        <span className='belowCardSpan2'> -The Ultimate Door Supervisor Services in the UK </span>
+        <span className="belowCardSpan2">
+          {" "}
+          -The Ultimate Door Supervisory Services in the UK{" "}
+        </span>
       </h3>
       <p className="belowCardTex">
         At Global Total Security Limited, we pride ourselves on being at the

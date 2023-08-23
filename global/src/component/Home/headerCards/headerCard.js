@@ -30,7 +30,7 @@ function HeaderCard() {
         <h3>Tailored Security Solutions</h3>
         <p>
           Every venue is unique, and so are our security solutions. We craft
-          personalized plans that align with your establishment's specific
+          personalised plans that align with your establishment's specific
           needs. From small gatherings to large events, we've got you covered.
         </p>
       </div>

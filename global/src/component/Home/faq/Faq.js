@@ -6,14 +6,13 @@ import FaqProp from '../../faq/faq'
 function Faq() {
 
 
-   let question1 =
-     "Are your Door Supervisors licensed?";
+   let question1 = "Are your door supervisors licensed?";
    let answer1 =
-     "Yes, our Door Supervisors are rigorously licensed and regulated by the SIA (Security Industry Authority) as mandated by law. With comprehensive training, thorough vetting, and proficiency in first aid and customer service, they bring exceptional value to your venue or event.";
+     "Yes, our door supervisors are rigorously licensed and certified by the SIA (Security Industry Authority) as mandated by law. With comprehensive training, thorough vetting, and proficiency in first aid and customer service, they bring exceptional value to your venue or event.";
   
      let question2 = "What types of venues do you provide services for?";
      let answer2 =
-       "We offer door supervisory services for a wide range of venues, including nightclubs, bars, restaurants, hotels, music festivals, corporate events, and private functions.";
+       "We offer door supervisory services for a wide range of venues, including nightclubs, bars, restaurants, hotels, music festivals, corporate events, hotels and private functions.";
   
       let question3 =
         "Can your services be tailored to my specific venue or event?";

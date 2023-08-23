@@ -29,12 +29,12 @@ let iconOne = <FontAwesomeIcon icon={faPersonMilitaryPointing} />;
       <div className="aboutUs">
         <div className="aboutUsTop">
           <h2>
-            "We Are Trusted Top Security Experts With Over
+            "We Are A Trusted Top Security Company With Over
             <span style={{ color: "#ff9d2f" }}> 10 Years</span> Of Experience
           </h2>
           <p>
             We are your trusted partner in providing professional door
-            supervisor services across the UK. We take pride in ensuring the
+            supervisory services across the UK. We take pride in ensuring the
             safety and security of your establishment and its patrons, allowing
             you to focus on providing an enjoyable and welcoming environment for
             all.
