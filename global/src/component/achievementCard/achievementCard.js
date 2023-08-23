@@ -21,7 +21,7 @@ function AchievementCard({ awardImg, awardCount, awardText, id }) {
   const animation = useSpring({ number: animatedValue, from: { number: 0 } });
 
   let achievementText =
-    id === 2 ? " Million+" : id === 1 ? "+" : id === 4 ? "%" : "";
+    id === 2 ? ".2Million+" : id === 1 ? "+" : id === 4 ? "%" : "";
 
   return (
     <div className="w-full h-full shadow-lg border-2 text-center flex flex-col justify-center items-center py-10 my-4">

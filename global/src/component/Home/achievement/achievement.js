@@ -24,7 +24,7 @@ function Achievement() {
         <div className="lg:w-1/5">
           <AchievementCard
             awardImg={<FontAwesomeIcon icon={faPeopleGroup} />}
-            awardCount={2}
+            awardCount={1}
             awardText="Attendees Safely Managed"
             id={2}
           />
