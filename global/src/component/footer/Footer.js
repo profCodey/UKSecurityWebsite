@@ -76,7 +76,7 @@ function Footer() {
             <div className="md:pl-0 ">
               <FontAwesomeIcon className="icons" icon={faPhone} />
             </div>
-            <div className="w-4/5">
+            <div className="md:w-11/12">
               <p className="text-xl md:text-2xl">
                 01 616 690 880, <br /> +44 7862038656, <br /> +44 7404 749549,{" "}
                 <br /> +44 7878 251590
