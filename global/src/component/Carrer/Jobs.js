@@ -48,8 +48,8 @@ United Kingdom "
         </div>
         <div className="w-3/4 mx-auto">
             <p className=" md:w-1/2 text-center font-thin text-3xl text-[#001f41] mx-auto lg:mt-10 md:text-3xl lg:text-4xl mb-16 mt-16">
-              We are always looking for talented people -send us your resume and we
-              will get in touch with you
+              We are always looking for talented people -send us your resume and cover letter, we
+              will get in touch with you.
             </p>
             <p className=" md:w-1/2 text-center font-thin text-3xl text-[#001f41] mx-auto lg:mt-10 md:text-3xl lg:text-4xl mb-32 mt-16">
               email -info@gmail.com
