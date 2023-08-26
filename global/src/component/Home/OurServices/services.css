@@ -30,22 +30,22 @@
   line-height: var(--lineHeight-Mobile);
 }
 
-ul.homeList {
+/* ul.homeList {
   color: var(--color-primary);
 }
 
 .homeList li {
   font-size: var(--fontSize-paragraphMobile);
   line-height: 2rem;
-}
+} */
 
 @media only screen and (min-width: 470px) {
-  .homeList {
+  /* .homeList {
     display: flex;
     justify-content: left;
     gap: 20%;
-    /* margin-left: -10%; */
-  }
+
+  } */
 }
 
 @media only screen and (min-width: 900px) {

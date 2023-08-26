@@ -63,6 +63,7 @@
     width: 100%;
     gap: 0px;
     top: -10px;
+ 
   }
 
   .headerCardChild {
@@ -80,12 +81,12 @@
 
   .headerCard h3 {
     /* margin-top: 35px; */
-    font-size: 1.4rem;
+    font-size: 1.7rem;
   }
 
   .headerCard p {
     /* margin-top: 1.5rem; */
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 80%;
     line-height: 2rem;
   }

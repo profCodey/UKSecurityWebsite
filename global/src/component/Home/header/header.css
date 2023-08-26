@@ -66,14 +66,14 @@
 }
 @media only screen and (max-width: 450px) {
   .banner-text h1 {
-    font-size: 3.8rem;
-    line-height: 4.2rem;
+    font-size: 4.3rem;
+    line-height: 4.5rem;
   }
   .banner-text p {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     font-weight: 300;
     color: #fff;
-    margin-top: 0.8rem;
+    margin-top: 1.2rem;
   }
 
   .bannerImg img {

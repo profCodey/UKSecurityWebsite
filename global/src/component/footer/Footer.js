@@ -38,7 +38,7 @@ function Footer() {
         </div>
 
         <div className="mx-auto text-center md:text-left text-white flex flex-col w-full md:w-1/3  md:items-center gap-6">
-          <h2 className="text-2xl md:text-3xl">Usefull Links</h2>
+          <h2 className="text-2xl md:text-3xl">Useful Links</h2>
           <ul className="list-none flex flex-col gap-8 lg:gap-4 ">
             {/* <li className="list-none">Home</li>
             <li className="list-none">Abu</li>
